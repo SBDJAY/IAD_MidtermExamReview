@@ -9,6 +9,7 @@ namespace IAD_MidtermExamReview
     public  class Ebook: Book
     {
         public double FileSize { get; set; }
+
         private string downloadURL;
         public string DownloadURL 
         { 
