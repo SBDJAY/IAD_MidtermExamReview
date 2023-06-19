@@ -36,9 +36,9 @@ namespace IAD_MidtermExamReview
             return false;
         }
 
-        public void GetCount() 
+        public int GetCount() 
         {
-            //return cart.Count;
+            return cart.Count;
         }
 
         public double GetTotalPRice(double discountPercentage)
